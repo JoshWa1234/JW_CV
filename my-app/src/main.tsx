@@ -1,21 +1,9 @@
 import { createRoot } from 'react-dom/client'
+import App from './App';
 
 
-const HomePage = (
-  <table>
-    <tr>
-      <th>Name</th>
-    </tr>
-    <tr>
-      <td>John</td>
-    </tr>
-    <tr>
-      <td>Elsa</td>
-    </tr>
-  </table>
-);
 
 
 createRoot(document.getElementById('home')!).render(
-  HomePage
+  <App/>
 )  
